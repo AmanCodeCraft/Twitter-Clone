@@ -4,21 +4,27 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
+body{
+    display: flex;
+    gap: 5px;
+    justify-content: space-evenly;
+}
+
 .left-container{
-    width: 26%;
-    margin: 10px 40px;
+    width: 20%;
 }
 
 .center-container{
-    width: 48%;
-    background-color: rgb(115, 253, 172);
-    height: 200vh;
+    width: 42%;
+    border:2px solid black;
 }
 
 .right-container{
-    width: 26%;
-    background-color: rgb(238, 139, 86);
-    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 22%;
+    padding: 10px 10px;
 }
 
 /* left-container */
@@ -44,15 +50,22 @@
 }
 
 .left-nav>ul>li>i{
-    width: 30px;
-    height: 30px;
-    margin-right: 10px;
+    width: 20px;
+    margin-right: 15px;
+}
+.small-profile>.content>p{
+    font-weight: bold;
+}
+
+.small-profile>.content>span{
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 1rem;
 }
 
 .post-btn{
     height: 45px;
     width: 90%;
-    background-color: rgb(74, 139, 237);
+    background-color: #1d9bf0;
     border-radius: 60px;
     color: white;
     font-size: 1.2rem;
@@ -62,7 +75,6 @@
     align-items: center;
     margin-bottom: 40px;
 }
-
 
 /* small profile area */
 .profile-pic{
@@ -80,3 +92,85 @@
     margin-right:30px;
 }
 
+/* right container */
+
+.search-box{
+    height: 35px;
+    border-radius: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(231, 228, 228);
+}
+
+.search-box>input{
+    width:70%;
+    outline: none;
+    border: none;
+    background-color:rgb(231, 228, 228);
+    font-size: 1.1rem;
+}
+
+.search-box>i{
+    margin: 0px 15px;
+}
+
+/* subscribe-area */
+
+.subscribe-area,.tred-area{
+    width: 100%;
+    border: 1px solid rgb(238, 232, 232);
+    border-radius: 10px;
+    padding: 10px 25px;
+    margin: 10px 20px;
+}
+
+.subscribe-area>h3{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.subscribe-area>.sub-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    height: 30px;
+    width: 100px;
+    border-radius: 40px;
+    text-align: center;
+    margin-block: 5px;
+    font-weight: bold;
+}
+
+/* tred area */
+
+.tred-area,.left-area{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.tred-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-block: 10px;
+}
+
+.left-area>p{
+    font-weight: bold;
+}
+
+.grey{
+    color: rgb(116, 106, 106);
+}
+
+.blue{
+    color: #1d9bf0;
+}
+
+a{
+    text-decoration: none;
+}
