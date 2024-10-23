@@ -18,7 +18,7 @@ body{
 
 .center-container{
     width: 45%;
-    border:2px solid black;
+    border: 1px solid rgb(238, 232, 232);
 }
 
 .right-container{
@@ -167,7 +167,7 @@ body{
 }
 
 .grey{
-    color: rgb(116, 106, 106);
+    color: rgb(134, 130, 130);
 }
 
 .blue{
@@ -181,3 +181,85 @@ a{
 a>i{
     color: black;
 }
+
+/* center post area */
+
+.center-post-area{
+    border-bottom: 1px solid rgb(238, 232, 232);
+    margin-top: 10px;
+}
+
+.up-opt{
+    display: flex;
+    justify-content: space-around;
+    padding-block: 12px;
+    border: 1px solid rgb(238, 232, 232);
+}
+
+.center-post-area>.inside>.box-content-area>img{
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.inside,.social-opt{
+    padding: 5px 18px;
+}
+
+.post-img{
+    padding: 5px 10px 5px 30px;
+}
+
+.post-img>img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.inside,.box-content-area{
+    display: flex;
+    align-items: center;
+}
+
+.inside{
+    justify-content: space-between;
+}
+
+.first-row>p{
+    font-weight: 600;
+}
+
+/* like share area */
+
+.social-opt{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: .9rem;
+}
+
+.first-row>p>span{
+    font-size: .85rem;
+}
+
+.column-1,.column-2{
+    display: flex;
+    padding: 0px 2px 5px 18px;
+}
+
+.column-1{
+    gap: 40px;
+}
+
+.column-2{
+    gap: 15px;
+}
+
+.social-opt>.column-1>a{
+    color: black;
+}
+
+.social-opt>.column-1>a>i{
+    margin-right: 5px;
+}
+
+
