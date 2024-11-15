@@ -1,0 +1,21 @@
+@media (min-width: 300px) and (max-width: 480px) {
+    /* Styles for Android phone screens */
+
+    body{
+        display: block;
+    }
+
+    .left-container{
+        display: none;
+    }
+
+    .right-container{
+        display: none;
+    }
+
+    .center-container{
+        width: 98%;
+        border: 1px solid rgb(238, 232, 232);
+    }
+
+}
